@@ -2,7 +2,7 @@ module "s3" {
   source = "../../module/s3"
 
   ## Local Variable ##
-  bucket_name = "brunolabs-module-s3-${var.environment_name}"
+  bucket_name = "brunolabs1-module-s3-${var.environment_name}"
 
   ## Tags##
   #tags = var.tags
