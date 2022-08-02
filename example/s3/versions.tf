@@ -9,8 +9,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "terraform-brunolabs"
-    key     = "module-s3-vini/terraform.tfstate"
-    region  = "us-east-1"
+    bucket = "terraform-brunolabs"
+    key    = "module-s3-vini/terraform.tfstate"
+    region = "us-east-1"
   }
 }
