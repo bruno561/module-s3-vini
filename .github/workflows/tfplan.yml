@@ -12,7 +12,7 @@ jobs:
     name: 'terraform plan'
     runs-on: ubuntu-latest
     env:
-      TF_WORKING_DIR: 'example/s3'
+      TF_WORKING_DIR: 'example/'
 
     defaults:
       run:
